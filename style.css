@@ -394,13 +394,18 @@ padding-bottom: 3vw;
 .program .line{
     background-color: red;
     padding: 2px;
+    width: 15%;
+    position: relative;
+    left: 42%;
+    top: 1.4%;
+}
+.explore .line{
+    background-color: red;
+    padding: 2px;
     width: 39%;
     position: relative;
     left: 29%;
     top: 3%;
-}
-.explore .line{
-    
 }
 .ba .line{
     left: 32%;
