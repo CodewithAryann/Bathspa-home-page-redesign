@@ -537,3 +537,48 @@ padding-bottom: 3vw;
 .scholarships button:hover {
     background-color: #ffffffd9;
 }
+.test-div{
+    position: relative;
+    margin-top: 5vw;
+}
+.test-blue{
+    width: 60%;
+    background-color: #22263D;
+    height: 31rem;
+}
+.test-white{
+    position: absolute;
+    height: 31rem;
+    width: 60%;
+    background-color: white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+    left: 8%;
+    top: 20%;
+}
+.test-blue2{
+    width: 60%;
+    background-color: #22263D;
+    height: 33rem;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 42%;
+    left: 40%;
+}
+.inside-blue{
+    position: absolute;
+    top: 10%;
+    left: 17%;
+    width: 78%;
+    background-color: white;
+    height: 75%;
+}
+.test-blue2 img {
+    position: absolute;
+    z-index: 1;
+    width: 22%;
+    margin-top: 2vw;
+    margin-left: 3vw;
+}
+.news{
+    margin-top: 27vw;
+}
