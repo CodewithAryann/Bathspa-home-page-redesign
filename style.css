@@ -57,6 +57,7 @@ nav {
     white-space:unset;
     flex: 0;
     margin-right: 32px;
+    text-align: left;
 }
 video{
     width: 100%;
