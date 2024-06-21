@@ -58,6 +58,72 @@ nav {
     flex: 0;
     margin-right: 32px;
 }
+video{
+    width: 100%;
+}
+#button{
+    position: absolute;
+    left: 43%;
+    top: 47%;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 10px 12px;
+}
+.button :hover{
+    background-color: white;
+}
+#button {
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid #ffffffad;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 3.75em;
+    min-width: 0;
+    outline: none;
+    padding: 18px 35px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+   }
+   
+   #button:disabled {
+    pointer-events: none;
+   }
+   
+   #button:hover {
+    color: #fff;
+    background-color: #302e467a;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+   }
+   
+   #button:active {
+    box-shadow: none;
+    transform: translateY(0);
+   }
+   #button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+
+   }
 .image-section img{
     width: 100%;
     height: 532px;
@@ -80,7 +146,7 @@ nav {
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-    background: linear-gradient(90deg, #baa98b5c, #544c3f8c);
+    background: linear-gradient(90deg, #25221d33, #463f548c);
     padding: 20px;
     border-radius: 10px;
     font-size: 14px;
@@ -88,7 +154,7 @@ nav {
     font-family: "Montserrat", sans-serif;
 }
 .heading-text h1{
-    color: #22263D;
+    color: whitesmoke;
 }
 .heading-text2{
     position: absolute;
@@ -97,7 +163,7 @@ nav {
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-    background: linear-gradient(90deg, #baa98b5c, #544c3f8c);
+    background: linear-gradient(90deg, #25221d33, #463f548c);
     padding: 20px;
     border-radius: 10px;
     font-size: 29px;
@@ -111,9 +177,9 @@ nav {
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-    background: linear-gradient(90deg, #baa98b5c, #544c3f8c);
+    background: linear-gradient(90deg, #25221d33, #463f548c);
     padding: 20px;
-    border-top-left-radius: 10px; /* Adjust the radius as needed */
+    border-top-left-radius: 10px; 
     border-top-right-radius: 10px;
     font-size: 29px;
     font-family: "Montserrat", sans-serif;
@@ -212,29 +278,28 @@ nav {
     left: 59%;
 }
 .why-choose-section{
-    padding: 10px;
-    background-color: #22263D;
     margin-top: 24%;
-    height: 58vw;
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
 }
 .why-choose-section h1{
     text-align: center;
-    margin-top: 6vw;
+    margin-top: 4vw;
     color: white;
     font-family: "Montserrat", sans-serif;
 }
 .why-choose-section p{
     font-size: 2vw;
     color: white;
-    width: 70%;
+    width: 81%;
     text-align: center;
-    margin-left: 16vw;
+    margin-left: 7vw;
     margin-top: 3vw;
 }
 #why-choose-div{
 display: flex;
+background-color: #22263D;
+margin-top: 3vw;
+border-top-left-radius: 35px;
+border-top-right-radius: 35px;
 }
 #why-choose-div h1{
     font-size: 17px;
@@ -242,6 +307,12 @@ display: flex;
 #why-choose-div p{
     margin-left: 54px;
     font-size: 17px;
+}
+#div0{
+    margin: 0px 187px;
+    padding: 1px 1px 49px 0px;
+    background: #22263D;
+    border-radius: 10px;
 }
 #div1 p{
     text-align: left;
