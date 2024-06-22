@@ -663,27 +663,30 @@ padding-bottom: 3vw;
     margin-left: 8%;
 }
 .news-div-1 img{
-    /* width: 74%; */
     width: 100%;
     height: 90%;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
 }
-.box-1{
+.box-1, .box-2{
     height: 1%;
     width: 147%;
+    border: 1px solid black;
+    border-radius: 10px;
 }
-.box-1 h1{
+.box-1 h1,.box-2 h1{
     font-size: 22px;
     font-weight: 500;
     margin-top: 8px;
     margin-left: 6px;
 }
-.box-1 .line{
+.box-1 .line, .box-2 .line {
     width: 91%;
     height: 1.4px;
     background-color: black;
     margin-left: 6px;
 }
-.box-1 p{
+.box-1 p, .box-2 p{
     margin-top: 16px;
     font-size: 23px;
     margin-left: 6px;
@@ -692,4 +695,11 @@ padding-bottom: 3vw;
 .box-2{
     width: 149%;
     height: 11%;
+}
+.date{
+    display: flex;
+    gap: 39%;
+}
+.date p {
+    font-size: 13px;
 }
