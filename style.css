@@ -66,6 +66,7 @@ nav {
     z-index: 1;
     text-transform: uppercase;
     font-size: 14px;
+    border-radius: 3px;
 }
 
 .dropdown-content a, .dropdown-content-sub a {
@@ -88,7 +89,8 @@ nav {
     display: block;
 }
 .dropdown-content, .dropdown-content-sub{
-    width: 119%;
+    width: 141%;
+    cursor: pointer;
 }
 
 .dropdown-submenu {
@@ -112,15 +114,49 @@ nav {
 .dropdown-submenu:hover .dropdown-content-sub-program {
     display: block;
 }
+#alumni{
+    width: 81%;
+}
+#academics{
+    width: 161%;
+}
+#program{
+    width: 88%;
+}
 #undergraduate{
     position: absolute;
     top: 0%;
+    border-radius: 4px;
+    width: 246%;
+}
+#postgraduate{
+    border-radius: 4px;
+    width: 144%;
 }
 #foundation{
     position: absolute;
     top: 66%;
+    border-radius: 4px;
+    width: 180%;
 }
-
+#admission{
+    width: 219%;
+}
+#std-life{
+    width: 182%;
+}
+#desk{
+    width: 140%;
+}
+#newsandgallery{
+    width: 120%;
+}
+#std-work{
+    width: 110%;
+}
+#contact{
+    width: 137%;
+}
 .dropdown-content-sub-box{
     display: none;
     position: absolute;
