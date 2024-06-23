@@ -718,7 +718,21 @@ padding-bottom: 3vw;
 }
 .news-section button{
     margin-top: 33px;
-    padding: 10px 19px;
+    border-radius: 5px;
+    padding: 16px 19px;
     position: absolute;
-    left: 43%;
+    left: 42%;
+    background-color: #22263D;
+    transition: background-color 0.3s, transform 0.3s;
+    border: none;
+}
+.news-section button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.news-section button:hover {
+    background-color: #3B3F5C;
+    transform: scale(1.05);
 }
