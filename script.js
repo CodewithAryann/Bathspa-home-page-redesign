@@ -64,25 +64,27 @@ function locosmoothscroll() {
         const locomotiveScroll = new LocomotiveScroll();
     })();
 }
-document.addEventListener('DOMContentLoaded', function() {
-    var questions = document.querySelectorAll('.question');
+function questions(){
+    document.addEventListener('DOMContentLoaded', function() {
+        var questions = document.querySelectorAll('.question');
+        
+        questions.forEach(function(question) {
+            question.addEventListener('click', function() {
+                var answer = this.nextElementSibling;
+                var arrow = this.querySelector('.arrow');
     
-    questions.forEach(function(question) {
-        question.addEventListener('click', function() {
-            var answer = this.nextElementSibling;
-            var arrow = this.querySelector('.arrow');
-
-            if (answer.classList.contains('show')) {
-                answer.classList.remove('show');
-                arrow.style.transform = 'rotate(0deg)';
-            } else {
-                answer.classList.add('show');
-                arrow.style.transform = 'rotate(180deg)';
-            }
+                if (answer.classList.contains('show')) {
+                    answer.classList.remove('show');
+                    arrow.style.transform = 'rotate(0deg)';
+                } else {
+                    answer.classList.add('show');
+                    arrow.style.transform = 'rotate(180deg)';
+                }
+            });
         });
     });
-});
-
+}
 
 testbox();
 locosmoothscroll();
+questions();
