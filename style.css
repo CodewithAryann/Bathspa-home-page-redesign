@@ -908,5 +908,20 @@ padding-bottom: 3vw;
     background-color: #3B3F5C;
     transform: scale(1.05);
 }
-
+.questions{
+    margin-top: 17%;
+    background-color: #22263D;
+}
+.top-txt{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 37px;
+    font-size: 84%;
+}
+.top-txt h2{
+    font-weight: 500;
+}
+.top-txt h1{
+    font-weight: 600;
+}
 
