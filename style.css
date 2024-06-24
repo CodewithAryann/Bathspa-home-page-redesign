@@ -911,17 +911,67 @@ padding-bottom: 3vw;
 .questions{
     margin-top: 17%;
     background-color: #22263D;
+    height: 63vw;
+    
 }
 .top-txt{
+    position: relative;
     text-align: center;
     color: whitesmoke;
     padding-top: 37px;
     font-size: 84%;
+    margin-bottom: 56px;
 }
 .top-txt h2{
     font-weight: 500;
+    margin-bottom: 10px;
 }
 .top-txt h1{
     font-weight: 600;
+}
+.top-txt img{
+    position: absolute;
+    top: 32%;
+    left: 60%;
+    width: 8%;
+}
+
+.faq-item {
+    margin: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.question img {
+    width: 2%;
+}
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    height: 6vw;
+    background-color: white;
+    overflow: hidden;
+}
+
+.question p {
+    margin: 0;
+    flex: 1;
+}
+
+.question .arrow {
+    transition: transform 0.3s ease;
+}
+
+.answer {
+    display: none;
+    padding: 10px;
+    background-color: #f9f9f9;
+    padding: 19px 10px;
+    border:1px solid black ;
+}
+
+.answer.show {
+    display: block;
 }
 
