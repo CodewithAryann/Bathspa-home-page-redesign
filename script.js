@@ -59,6 +59,11 @@ function testbox() {
     });
     
 }
-
+function locosmoothscroll() {
+    (function () {
+        const locomotiveScroll = new LocomotiveScroll();
+    })();
+}
 
 testbox();
+locosmoothscroll();

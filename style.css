@@ -794,6 +794,7 @@ padding-bottom: 3vw;
 .news{
     margin-top: 27vw;
     position: relative;
+    margin-bottom: 132px;
 }
 .news p{
     text-align: center;
@@ -821,11 +822,11 @@ padding-bottom: 3vw;
     width: 11%;
 }
 .news-div-1{
-    margin-top: 13%;
+    margin-top: 5%;
     display: flex;
     width: 84%;
     gap: 15%;
-    margin-left: 8%;
+    margin-left: 10%;
 }
 .news-div-1 img{
     width: 100%;
@@ -882,11 +883,11 @@ padding-bottom: 3vw;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .news-section button{
-    margin-top: 33px;
+    margin-top: 53px;
     border-radius: 5px;
     padding: 16px 19px;
     position: absolute;
-    left: 42%;
+    left: 44%;
     background-color: #22263D;
     transition: background-color 0.3s, transform 0.3s;
     border: none;
