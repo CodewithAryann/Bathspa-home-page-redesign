@@ -1314,10 +1314,10 @@ footer {
  .footer-contact{
     width: 31%;
  }
- .footer-contact h1, .links h1 {
+ .footer-contact h1, .links h1,.follow h1 {
     font-size: 22px;
  }
- .footer-contact .line, .links .line{
+ .footer-contact .line, .links .line, .follow .line{
     width: 40%;
     height: 2px;
     background-color: white;
@@ -1336,4 +1336,34 @@ footer {
  }
  .links p{
     margin-bottom: 1vw;
+    text-transform: uppercase;
  }
+ .follow .line{
+    width: 59%;
+ }
+ .Social-media{
+    display: flex;
+    gap: 5%;
+    align-items: center;
+ }
+ .Social-media img{
+    width: 85%;
+    height: 0%;
+    opacity: 0.9;
+ }
+ .Social-media a img {
+    transition: opacity 0.3s ease-in-out; 
+}
+
+.Social-media a img:hover {
+    opacity: 1;
+}
+#object-4{
+    position: relative;
+    left: 66.3%;
+    top: -25vw;
+    margin-bottom: -31vw;
+}
+.bottom{
+    background-color: #000000;
+}
