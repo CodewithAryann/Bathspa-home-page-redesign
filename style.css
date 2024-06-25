@@ -990,7 +990,7 @@ padding-bottom: 3vw;
     display: block;
 }
 .contact{
-    margin-top: 47px;
+    margin-top: 96px;
     position: relative;
 }
 .contact-blue{
@@ -998,14 +998,13 @@ padding-bottom: 3vw;
     height: 19vw;
     background-color: #22263D;
     position: absolute;
-    left: 5%;
 }
 .contact img{
     width: 44%;
     height: 40vw;
     z-index: 1;
     position: absolute;
-    left: 8%;
+    left: 3%;
     margin-top: 3vw;
 }
 footer{
