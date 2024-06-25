@@ -1022,6 +1022,26 @@ padding-bottom: 3vw;
     border-bottom-left-radius: 10px;
     box-shadow: 6px 2px 27px rgba(0, 0, 0, 0.5)
 }
+.contact-white h1 {
+    text-align: center;
+    margin-top: 5vw;
+    font-size: 32px;
+    font-weight: 600;
+}
+.contact-white h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+.contact-white .line{
+    margin-top: 8px;
+    left: 41%;
+    width: 19%;
+    height: 3px;
+    background-color: red;
+    position: absolute;
+}
 footer{
     margin-top: 20vw;
 }
