@@ -989,4 +989,16 @@ padding-bottom: 3vw;
 .answer.show {
     display: block;
 }
-
+.contact{
+    margin-top: 47px;
+}
+.contact-blue{
+    width: 49%;
+    height: 19vw;
+    background-color: black;
+    position: absolute;
+    left: 5%;
+}
+footer{
+    margin-top: 20vw;
+}
