@@ -1013,8 +1013,8 @@ padding-bottom: 3vw;
 .contact-white{
     position: absolute;
     width: 62%;
-    height: 55vw;
-    background-color: whitesmoke;
+    height: 61vw;
+    background-color: white;
     left: 38%;
     z-index: 2;
     top: 10%;
@@ -1041,6 +1041,43 @@ padding-bottom: 3vw;
     height: 3px;
     background-color: red;
     position: absolute;
+}
+.contact-white p{
+    margin-left: 5vw;
+    margin-top: 22px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.contact-white #full{
+    margin-top: 4vw;
+    margin-left: 5vw;
+    font-size: 16px;
+}
+input#full-name{
+    padding: 9px 8px;
+    /* padding-right: 41vw; */
+    margin-left: 63px;
+    margin-top: 10px;
+    border: 1px solid #ab9595;
+    border-radius: 4px;
+    text-transform: uppercase;
+    width: 90%;
+}
+.contact-white #message{
+    margin-top: 4vw;
+    margin-left: 5vw;
+    font-size: 16px;
+}
+.contact-white #message{
+    padding: 9px 8px;
+    /* padding-right: 41vw; */
+    margin-left: 63px;
+    margin-top: 10px;
+    border: 1px solid #ab9595;
+    border-radius: 4px;
+    text-transform: uppercase;
+    width: 90%;
+    height: 170px;
 }
 footer{
     margin-top: 20vw;
