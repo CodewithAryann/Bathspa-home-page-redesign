@@ -992,16 +992,18 @@ padding-bottom: 3vw;
 .contact{
     margin-top: 96px;
     position: relative;
+    height: 74vw;
 }
 .contact-blue{
-    width: 49%;
-    height: 19vw;
+    width: 61%;
+    height: 54vw;
     background-color: #22263D;
     position: absolute;
+    border-radius: 10px;
 }
 .contact img{
-    width: 44%;
-    height: 40vw;
+    width: 56%;
+    height: 56vw;
     z-index: 1;
     position: absolute;
     left: 3%;
