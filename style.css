@@ -1300,3 +1300,40 @@ footer {
     align-items: center;
     gap: 7%;
 }
+.med{
+    display: flex;
+    padding: 29px;
+    gap: 3.8%;
+}
+.footer-img{
+    width: 15vw;
+}
+#footer-img{
+    width: 99%;
+ }
+ .footer-contact{
+    width: 31%;
+ }
+ .footer-contact h1, .links h1 {
+    font-size: 22px;
+ }
+ .footer-contact .line, .links .line{
+    width: 40%;
+    height: 2px;
+    background-color: white;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+ }
+ .footer-contact p{
+    margin-bottom: 1vw;
+    text-transform: uppercase;
+ }
+ .links{
+    width: 24%;
+ }
+ .links .line{
+    width: 23.7%;
+ }
+ .links p{
+    margin-bottom: 1vw;
+ }
