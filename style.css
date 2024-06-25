@@ -20,7 +20,21 @@ body {
     padding: 10px;
     background-color: #22263D;
     color: #fff;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays above other content */
+    box-shadow: 0 4px 6px -6px #222; 
+    transition: top 0.3s;
 }
+.nav.hidden {
+    top: -100px; /* Adjust this value based on the height of your nav */
+}
+.nav .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
 
 nav {
     display: flex;
@@ -1044,7 +1058,7 @@ video {
 .questions {
     margin-top: 17%;
     background-color: #22263D;
-    height: 72vw;
+    height: 74vw;
     padding: 55px;
 }
 
@@ -1271,5 +1285,18 @@ input#full-name {
 }
 
 footer {
-    margin-top: 20vw;
+    margin-top: 6vw;
+    background-color: #22263D;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.top{
+    display: flex;
+    padding: 29px;
+}
+.footer-top{
+    display: flex;
+    align-items: center;
+    gap: 7%;
 }

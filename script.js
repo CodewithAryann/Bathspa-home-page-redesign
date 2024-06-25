@@ -1,3 +1,22 @@
+function navscroll(){
+    let lastScrollTop = 0;
+    const nav = document.querySelector('.nav');
+    
+    window.addEventListener('scroll', function() {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        
+        if (scrollTop > lastScrollTop) {
+            // Downscroll
+            nav.classList.add('hidden');
+        } else {
+            // Upscroll
+            nav.classList.remove('hidden');
+        }
+        
+        lastScrollTop = scrollTop;
+    });
+    
+}
 function testbox() {
     const testimonials = [
         {
@@ -64,27 +83,52 @@ function locosmoothscroll() {
         const locomotiveScroll = new LocomotiveScroll();
     })();
 }
-function questions(){
+ function questions(){
     document.addEventListener('DOMContentLoaded', function() {
-        var questions = document.querySelectorAll('.question');
+        function questions() {
+            var questions = document.querySelectorAll('.question');
         
-        questions.forEach(function(question) {
-            question.addEventListener('click', function() {
-                var answer = this.nextElementSibling;
-                var arrow = this.querySelector('.arrow');
+            questions.forEach(function(question) {
+                question.addEventListener('click', function() {
+                    var answer = this.nextElementSibling;
+                    var arrow = this.querySelector('.arrow');
     
-                if (answer.classList.contains('show')) {
-                    answer.classList.remove('show');
-                    arrow.style.transform = 'rotate(0deg)';
-                } else {
-                    answer.classList.add('show');
-                    arrow.style.transform = 'rotate(180deg)';
-                }
+                    // Close all answers
+                    var allAnswers = document.querySelectorAll('.answer');
+                    allAnswers.forEach(function(ans) {
+                        if (ans !== answer && ans.classList.contains('show')) {
+                            ans.classList.remove('show');
+                        }
+                    });
+    
+                    // Reset all arrows
+                    var allArrows = document.querySelectorAll('.arrow');
+                    allArrows.forEach(function(arr) {
+                        if (arr !== arrow) {
+                            arr.style.transform = 'rotate(0deg)';
+                        }
+                    });
+    
+                    // Toggle current answer and arrow
+                    if (answer.classList.contains('show')) {
+                        answer.classList.remove('show');
+                        arrow.style.transform = 'rotate(0deg)';
+                    } else {
+                        answer.classList.add('show');
+                        arrow.style.transform = 'rotate(180deg)';
+                    }
+                });
             });
-        });
+        }
+    
+        questions();
     });
-}
+ }
 
+
+
+
+navscroll();
 testbox();
 locosmoothscroll();
 questions();
