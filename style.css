@@ -1000,6 +1000,7 @@ padding-bottom: 3vw;
     background-color: #22263D;
     position: absolute;
     border-radius: 10px;
+    box-shadow: 6px 2px 27px rgba(0, 0, 0, 0.5)
 }
 .contact img{
     width: 56%;
@@ -1008,6 +1009,18 @@ padding-bottom: 3vw;
     position: absolute;
     left: 3%;
     margin-top: 3vw;
+}
+.contact-white{
+    position: absolute;
+    width: 62%;
+    height: 55vw;
+    background-color: whitesmoke;
+    left: 38%;
+    z-index: 2;
+    top: 10%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 6px 2px 27px rgba(0, 0, 0, 0.5)
 }
 footer{
     margin-top: 20vw;
