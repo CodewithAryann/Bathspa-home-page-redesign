@@ -1199,8 +1199,8 @@ video {
 
 .contact-white .line {
     margin-top: 8px;
-    left: 41%;
-    width: 19%;
+    left: 38%;
+    width: 21%;
     height: 3px;
     background-color: red;
     position: absolute;
@@ -1362,8 +1362,14 @@ footer {
     position: relative;
     left: 66.3%;
     top: -25vw;
-    margin-bottom: -31vw;
+    margin-bottom: -32vw;
 }
 .bottom{
-    background-color: #000000;
+    background-color: #1A1E34;
+    position: relative;
+    z-index: 1;
+    padding: 29px;
+    padding: 23px;
+    text-align: center;
+    font-size: 14px;
 }

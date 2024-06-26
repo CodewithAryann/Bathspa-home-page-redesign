@@ -124,11 +124,224 @@ function locosmoothscroll() {
         questions();
     });
  }
+ function headinganim(){
+    gsap.utils.toArray('.heading-text h1, .heading-text2 p').forEach((section, index) => {
+        gsap.from(section, {
+          opacity: 0,
+          y: 20,
+          scrollTrigger: {
+            trigger: section,
+            start: 'top 80%', 
+            end: '+=100',
+            toggleActions: 'play none none reverse'
+          }
+        });
+      });
+ }
+ function headinganim2(){
+    gsap.utils.toArray('.heading-text3 p').forEach((section, index) => {
+        gsap.from(section, {
+          opacity: 0,
+          y: 20,
+          scrollTrigger: {
+            trigger: section,
+            start: 'top 80%', 
+            end: '+=100',
+            toggleActions: 'play none none reverse'
+          }
+        });
+      });
+ }
+ function objectanim(){
+  gsap.utils.toArray('#object').forEach((section, index) => {
+    gsap.from(section, {
+      opacity: 0,
+      y: 20,
+      scrollTrigger: {
+        trigger: section,
+        start: 'top 80%', 
+        end: '+=100',
+        toggleActions: 'play none none reverse'
+      }
+    });
+  });
+ }
 
+ function bluerecanmi(){
+    gsap.utils.toArray('.blue-rec-2 h1, .blue-rec-2 p').forEach((section, index) => {
+        gsap.from(section, {
+          opacity: 0,
+          y: 20,
+          scrollTrigger: {
+            trigger: section,
+            start: 'top 80%', 
+            end: '+=100',
+            toggleActions: 'play none none reverse'
+          }
+        });
+      });
+ }
 
+ function whychooseanim(){
+    gsap.utils.toArray('.why-choose-section h1, .why-choose-section p').forEach((section, index) => {
+        gsap.from(section, {
+          opacity: 0,
+          y: 20,
+          scrollTrigger: {
+            trigger: section,
+            start: 'top 80%', 
+            end: '+=100',
+            toggleActions: 'play none none reverse'
+          }
+        });
+      });
+ }
+ gsap.utils.toArray('.program h1,.program .line, .program h2,.program .txt',).forEach((section, index) => {
+    gsap.from(section, {
+      opacity: 0,
+      y: 20,
+      scrollTrigger: {
+        trigger: section,
+        start: 'top 80%', 
+        end: '+=100',
+        toggleActions: 'play none none reverse'
+      }
+    });
+  });
 
+ function graduationanim(){
+    gsap.utils.toArray('.graduation-rate p').forEach((section, index) => {
+        gsap.from(section, {
+          opacity: 0,
+          y: 20,
+          scrollTrigger: {
+            trigger: section,
+            start: 'top 80%', 
+            end: '+=100',
+            toggleActions: 'play none none reverse'
+          }
+        });
+      });
+ }
+
+ function scholarshipsanim(){
+    gsap.utils.toArray('.scholarships h1, .scholarships p').forEach((section, index) => {
+        gsap.from(section, {
+          opacity: 0,
+          y: 20,
+          scrollTrigger: {
+            trigger: section,
+            start: 'top 80%', 
+            end: '+=100',
+            toggleActions: 'play none none reverse'
+          }
+        });
+      });
+ }
+
+ function insideBlueanim(){
+    gsap.utils.toArray('.inside-blue h1, .inside-blue p, .inside-blue .line').forEach((section, index) => {
+        gsap.from(section, {
+          opacity: 0,
+          y: 20,
+          scrollTrigger: {
+            trigger: section,
+            start: 'top 80%', 
+            end: '+=100',
+            toggleActions: 'play none none reverse'
+          }
+        });
+      });
+ }
+ function newsanim(){
+    gsap.utils.toArray('.news p, .news h1, .news .line, .news img').forEach((section, index) => {
+        gsap.from(section, {
+          opacity: 0,
+          y: 20,
+          scrollTrigger: {
+            trigger: section,
+            start: 'top 80%', 
+            end: '+=100',
+            toggleActions: 'play none none reverse'
+          }
+        });
+      });
+ }
+ function testwhiteanim(){
+    gsap.utils.toArray('.test-white h1, .test-white p, .test-white .line').forEach((section, index) => {
+        gsap.from(section, {
+          opacity: 0,
+          y: 20,
+          scrollTrigger: {
+            trigger: section,
+            start: 'top 80%', 
+            end: '+=100',
+            toggleActions: 'play none none reverse'
+          }
+        });
+      });
+    
+ }
+
+ function questionanim(){
+    gsap.utils.toArray('.top-txt h1, .top-txt h2, .top-txt .line, .top-txt img').forEach((section, index) => {
+        gsap.from(section, {
+          opacity: 0,
+          y: 20,
+          scrollTrigger: {
+            trigger: section,
+            start: 'top 80%', 
+            end: '+=100',
+            toggleActions: 'play none none reverse'
+          }
+        });
+      });
+ }
+
+function contactanim(){
+    gsap.utils.toArray('.contact-white h1, .contact-white h2, .contact-white .line').forEach((section, index) => {
+        gsap.from(section, {
+          opacity: 0,
+          y: 20,
+          scrollTrigger: {
+            trigger: section,
+            start: 'top 80%', 
+            end: '+=100',
+            toggleActions: 'play none none reverse'
+          }
+        });
+      });
+}
+
+ function footeranim(){
+    gsap.utils.toArray('.footer-top').forEach((section, index) => {
+      gsap.from(section, {
+        opacity: 0,
+        y: 20,
+        scrollTrigger: {
+          trigger: section,
+          start: 'top 80%', 
+          end: '+=100',
+          toggleActions: 'play none none reverse'
+        }
+      });
+    });
+ }
 
 navscroll();
 testbox();
 locosmoothscroll();
 questions();
+headinganim();
+headinganim2();
+objectanim();
+bluerecanmi();
+whychooseanim();
+graduationanim();
+scholarshipsanim();
+insideBlueanim();
+testwhiteanim();
+newsanim();
+questionanim();
+contactanim();
+footeranim();
