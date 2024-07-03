@@ -327,6 +327,27 @@ function contactanim(){
       });
     });
  }
+ document.addEventListener("DOMContentLoaded", function () {
+  const hamburger = document.getElementById("hamburger");
+  const navMenu = document.querySelector(".nav-menu");
+  const navLinks = document.querySelectorAll(".nav-links");
+
+  hamburger.addEventListener("click", function () {
+      navMenu.classList.toggle("active");
+  });
+
+  navLinks.forEach(link => {
+      link.addEventListener("click", function (event) {
+          if (window.innerWidth <= 1000) {
+              event.preventDefault();
+              const parentDropdown = this.parentElement;
+              parentDropdown.classList.toggle("active");
+          }
+      });
+  });
+});
+
+
 
 navscroll();
 testbox();
