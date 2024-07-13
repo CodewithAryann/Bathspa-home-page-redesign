@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+
 function navscroll(){
     let lastScrollTop = 0;
     const nav = document.querySelector('.nav');
